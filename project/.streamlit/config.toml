@@ -1,0 +1,32 @@
+# Gêmeo Digital de Varejo · Streamlit Runtime (local + Cloud)
+
+[theme]
+base = "dark"
+primaryColor = "#3B82F6"
+backgroundColor = "#0B0F17"
+secondaryBackgroundColor = "#111826"
+textColor = "#E5ECF6"
+font = "sans serif"
+
+[server]
+headless = true
+runOnSave = false
+enableCORS = true
+enableXsrfProtection = false
+maxUploadSize = 200
+maxMessageSize = 200
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = false
+
+[runner]
+fastReruns = true
+enforceSerializableSessionState = false
+
+[logger]
+level = "info"

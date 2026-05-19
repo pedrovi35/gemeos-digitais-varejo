@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets & local config
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Data & warehouse (generated at runtime)
+data/*.duckdb
+data/*.duckdb.wal
+data/bronze/**/*
+!data/bronze/.gitkeep
+data/silver/**/*
+!data/silver/.gitkeep
+data/gold/**/*
+!data/gold/.gitkeep
+data/features/**/*
+!data/features/.gitkeep
+
+# ML artifacts (train locally; optional commit for demo)
+models/artifacts/**/*
+!models/artifacts/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Test & lint caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/cache/
