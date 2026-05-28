@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "Enterprise Digital Twin Platform for Retail Supply Chain — Stockout Observability & Operational Simulation"
 authors = [{ name = "Supply Chain Engineering" }]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<3.13"
 license = { text = "Proprietary" }
 keywords = ["digital-twin", "supply-chain", "retail", "stockout", "observability", "simulation"]
 
