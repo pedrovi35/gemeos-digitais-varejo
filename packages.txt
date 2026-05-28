@@ -1,2 +1,0 @@
-# System packages for Streamlit Cloud (if needed)
-# Leave empty unless native libs are required
